@@ -7,7 +7,7 @@ body {
         height: 60px;
         line-height: 60px;
         padding: 20px;
-        background-color: red
+        background-color: #DDDA25
 }
 h1 {
     float: left;
@@ -36,7 +36,8 @@ h1 {
             width: 70%;
             float: left;
             background-color: #D3D3D3;
-            min-height: 500px;
+            min-height: 600px;
+            
 }
 
 .sidebar { 
@@ -44,8 +45,46 @@ h1 {
         float: left;
         background-color: #4d4d4d;
         color: white; 
-        min-height: 500px;
+        min-height: 600px;
+}
+
+.sidebar p {
+        margin: 20px;
+
+
 }
 .main p {
     margin: 20px;
+}
+.blog-post1 {
+      
+        border: 1px lightgray;
+        border-radius: 3px;
+        margin: 10px;
+        padding: 10px;
+        background-color: white;
+}
+
+.blog-post2 {
+    
+      border: 1px lightgray;
+      border-radius: 3px;
+      margin: 10px;
+      padding: 10px;
+      background-color: white;
+}
+
+.blog-post3 {
+    
+      border: 1px lightgray;
+      border-radius: 3px;
+      margin: 10px;
+      padding: 10px;
+      background-color: white;
+}
+
+img {
+        float: left;
+        margin-right: 20px;
+        margin-bottom: 10px;
 }
